@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row advanced-google">
+                <div class="col-lg-3">
+                    <h1 class="google"><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: orange;">o</span><span style="color: blue;">g</span><span style="color: red;">l</span><span style="color: green;">e</span></h1>
+                </div>
+                <div class="col-lg-7 col-md-9 col-sm-9 col-12 space"></div>
+
+                <div class="col-lg-2 col-md-3 col-sm-3 col-12 search">
+                    <a href="index.html">Google Search</a>
+                </div>
+            </div>
+
+            <p class="advanced-search"><span style="color: red;">Advanced Search</span></p>
+        </div>
+
+        <div class="advanced-search-container">
+            <form action="https://google.com/search" name="f">
+                <div class="input-container">
+                    <span class="input-info" style="margin-right: 60px;">Find pages with: </span>
+                    <input type="text" name="as_q">
+                </div>
+                <div class="input-container">
+                    <span class="input-info" style="margin-right: 63px;">All these words: </span>
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="input-container">
+                    <span class="input-info" style="margin-right: 35px;">Any of these words: </span>
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="input-container">
+                    <span class="input-info" style="margin-right: 25px;">None of these words</span>
+                    <input type="text" name="as_eq">
+                </div>
+                <div>
+                    <input type="submit" class="btn btn-primary btn-sm input-btn" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
